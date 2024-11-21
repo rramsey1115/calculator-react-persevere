@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.btn {
+  border-radius: 6px;
+  height: 70px;
+  border: 1px solid transparent;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #242424;
+  cursor: pointer;
+  transition: border-color 0.2s;
+  margin: 2px;
+  text-align: center;
+}
+.btn:hover {
+  border-color: var(--pccBlue);
+  box-shadow: 0px 0px 2px var(--pccBlue);
+}
+.btn:focus,
+.btn:focus-visible {
+  outline: 2px auto -webkit-focus-ring-color;
+}
